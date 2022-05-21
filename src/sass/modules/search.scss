@@ -1,0 +1,144 @@
+.search{
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+    .search__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .search__wrapper{
+        .search__top{
+            display: flex;
+            padding: 30px 18px 30px;
+            .search__form{
+                .search__input-container{
+                    position: relative;
+                    .search__input-container-submit{
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 4px;
+                        background-image: url('data:image/svg+xml,%3Csvg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M12.574 6.55469C13.5419 6.55452 14.4898 6.83019 15.3066 7.3494C16.1235 7.8686 16.7755 8.60985 17.1862 9.48628C17.5969 10.3627 17.7494 11.3381 17.6257 12.298C17.502 13.258 17.1073 14.1628 16.4879 14.9065L20.3092 18.7269C20.3912 18.8086 20.4396 18.918 20.445 19.0336C20.4503 19.1492 20.4122 19.2626 20.3381 19.3515C20.2639 19.4404 20.1592 19.4983 20.0445 19.5138C19.9298 19.5293 19.8135 19.5013 19.7184 19.4352L19.6536 19.3825L15.8332 15.5612C15.2047 16.0844 14.4594 16.4486 13.6604 16.6229C12.8614 16.7972 12.0322 16.7765 11.2428 16.5625C10.4535 16.3486 9.7273 15.9477 9.12566 15.3938C8.52401 14.8399 8.06462 14.1492 7.78633 13.3802C7.50805 12.6112 7.41906 11.7865 7.52688 10.9758C7.63471 10.1652 7.93618 9.39239 8.40581 8.72286C8.87543 8.05334 9.49939 7.50677 10.2249 7.12937C10.9504 6.75197 11.7562 6.55486 12.574 6.55469V6.55469ZM12.574 7.48061C11.4689 7.48061 10.4091 7.9196 9.62769 8.701C8.84629 9.4824 8.40731 10.5422 8.40731 11.6473C8.40731 12.7523 8.84629 13.8122 9.62769 14.5936C10.4091 15.375 11.4689 15.8139 12.574 15.8139C13.679 15.8139 14.7389 15.375 15.5203 14.5936C16.3017 13.8122 16.7406 12.7523 16.7406 11.6473C16.7406 10.5422 16.3017 9.4824 15.5203 8.701C14.7389 7.9196 13.679 7.48061 12.574 7.48061Z" fill="%23BFBFBF"/%3E%3Ccircle cx="13.5" cy="13.5" r="12.5" stroke="%23B7FC26" stroke-width="1.5"/%3E%3C/svg%3E%0A');
+                        width: 27px;
+                        height: 27px;
+                        display: block;
+                    }
+
+                    .search__input-container-input{
+                        font-family: 'Roboto Condensed';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 14px;
+                        align-items: center;
+                        letter-spacing: 0.01em;
+                        color: #BFBFBF;
+                        padding: 8px 37px;
+
+                        background: #3E3E3E;
+                        border-radius: 58px;
+                        box-sizing: content-box;
+                        //min-width: 220px;
+                    }
+                }
+            }
+        }
+    
+        .search__top--cencle{
+            margin-left: 14px;
+            font-family: 'Roboto Condensed';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.01em;
+            color: #FFFFFF;
+        }
+
+        .search__bottom{
+            display: flex;
+            flex-direction: column;
+            .search__list{
+                border-bottom: 0.5px solid #686868;
+                .search__item{
+                    
+                    display: flex;
+                    .search__item-container{
+                        width: 100%;
+                        display: flex;
+                        padding-top: 3px;
+                        padding-bottom: 3px;
+                        border-top: 0.5px solid #686868;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                    }
+                    picture{
+                        border-radius: 8px;
+                        margin-top: auto;
+                        display: flex;
+                        margin-bottom: auto;
+                    }
+                    img{
+                        border-radius: 8px;
+                        display: block;
+                        margin-top: auto;
+                        margin-bottom: auto;
+                    }
+                    .search__item-info-container{
+                        margin-left: 20px;
+                        margin-top: auto;
+                        margin-bottom: auto;
+                        p{
+                            font-family: 'Roboto Condensed';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 19px;
+                            letter-spacing: 0.01em;
+                            color: #FFFFFF;
+                            text-align: left;
+                        }
+
+                        h2{
+                            font-family: 'Roboto Condensed';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 15px;
+                            line-height: 19px;
+                            text-align: center;
+                            letter-spacing: 0.01em;
+                            color: #FFFFFF;
+                            margin-top: 4px;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+            
+        }
+
+        .search__all{
+            margin-top: 30px;
+            margin-bottom: 50px;
+            font-family: 'Roboto Condensed';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 0.01em;
+            color: #AAAAAA;
+            text-align: center;
+            border-bottom: 1px solid #AAAAAA;
+            padding-bottom: 3px;
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

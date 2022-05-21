@@ -1,0 +1,129 @@
+//Header
+<header class="main-header">
+    <section class="header">
+        <h2 class="visually-hidden">Хедер</h2>
+        <div class="header__wrapper">
+            <div class="header__top">
+                if page == "index-page"
+                    <a class="header__top-link">
+                        <picture class="header__top-picture">
+                            <source media="(max-width: 1199px)" srcset="img/mobile-logo.svg">
+                            <img class="header__logo" src="img/logo.svg" width="79" height="23" alt="Логотип">
+                        </picture>
+                    </a>
+                else
+                    <a href="1--index.html" class="header__top-link">
+                        <picture class="header__top-picture">
+                            <source media="(max-width: 1199px)" srcset="img/mobile-logo.svg">
+                            <img class="header__logo" src="img/logo.svg" width="79" height="23" alt="Логотип">
+                        </picture>
+                    </a>
+                <div class="header__contacts">
+                    <a class="header__tel-first" href="tel:84922324709">8 (492) 232 47 09</a>
+                    <a class="header__tel-second" href="tel:+79007004709">+7 (900) 700 47 09</a>
+                    <p class="header__working-time">В будни с 10:00-19:00</p>
+                </div>
+                <button type="button" class="header__mobile-menu-open-trigger js__mobile-menu-open-trigger"></button>
+                <button type="button" class="header__callback js__callback">Заказать звонок</button>
+                <div class="header__search">
+                    <form action="/">
+                        <div class="header__search-form-wrapper">
+                            <input class="header__search-input" type="text" placeholder="Поиск по каталогу">
+                            <button type="submit" class="header__search-form-submit"></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="header__links">
+                    <a href="#" class="header__links-comparison">
+                        <span class="header__links-comparison-count">4</span>
+                    </a>
+                    <a href="#" class="header__links-wanted">
+                        <span class="header__links-wanted-count">4</span>
+                    </a>
+                    <a href="#" class="header__links-login">Войти</a>
+                    <a href="#" class="header__links-cart">
+                        <span class="header__links-cart-text">Корзина</span>
+                        <span class="header__links-cart-count">4</span>
+                    </a>
+                </div>
+            </div>
+            <div class="header__bottom header__bottom--open">
+                <ul class="header__desktop-menu-list">
+                    <li class="header__desktop-menu-item"><a class="header__desktop-menu-item-link" href="#">О компании</a></li>
+                    <li class="header__desktop-menu-item header__desktop-menu-item--open-trgger-container js__header__desktop-menu-item--open-trgger-container">
+                    
+                        <a class="header__desktop-menu-item-link">Каталог</a>
+                        <div class="header__desktop-menu-inner-list-container hide">
+                            <ul class="header__desktop-menu-inner-list-container-list">
+                                <li>
+                                    <a class="header__desktop-menu-inner-list-container-list-link js__header__desktop-menu-inner-list-container-list-link">Профессиональные силовые тренажеры</a>
+                                    <ul class="header__desktop-menu-inner-list-container-list--innered hide">
+                                        <li>
+                                            <a href="#">Бокс 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Столы 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Армрестлинг 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="header__desktop-menu-inner-list-container-list-link js__header__desktop-menu-inner-list-container-list-link" href="#">Профессиональные кардиотренажеры</a>
+                                    <ul class="header__desktop-menu-inner-list-container-list--innered hide">
+                                        <li>
+                                            <a href="#">Бокс 4</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Столы 5</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Армрестлинг 6</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="header__desktop-menu-inner-list-container-list-link js__header__desktop-menu-inner-list-container-list-link" href="#">Тренажеры для дома</a>
+                                    <ul class="header__desktop-menu-inner-list-container-list--innered hide">
+                                        <li>
+                                            <a href="#">Бокс 7</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Столы 8</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Армрестлинг 9</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="header__desktop-menu-inner-list-container-list-link js__header__desktop-menu-inner-list-container-list-link"  href="#">Домашние кардиотренажеры</a>
+                                    <ul class="header__desktop-menu-inner-list-container-list--innered hide">
+                                        <li>
+                                            <a href="#">Бокс 10</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Столы 11</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Армрестлинг 12</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header__desktop-menu-item"><a class="header__desktop-menu-item-link" href="#">проекты</a></li>
+                    <li class="header__desktop-menu-item"><a class="header__desktop-menu-item-link" href="#">услуги</a></li>
+                    <li class="header__desktop-menu-item"><a class="header__desktop-menu-item-link" href="#">Контакты</a></li>
+                </ul>
+                <ul class="header__desktop-info-list header__desktop-info-list--two">
+                    <li class="header__desktop-info-item"><a href="#" class="header__desktop-info-item-link header__desktop-info-item-link--city">Ваш город: <span>Владимир</span></a></li>
+                    <li class="header__desktop-info-item header__desktop-info-item--shop"><a href="#" class="header__desktop-info-item-link">Наш магазин</a></li>
+                    <li class="header__desktop-info-item header__desktop-info-item--delivery"><a href="#" class="header__desktop-info-item-link">Доставка</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</header>

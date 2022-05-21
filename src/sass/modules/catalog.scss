@@ -1,0 +1,178 @@
+.catalog__list{
+    li{
+        img{
+            object-fit: contain;
+        }
+        p{
+            font-family: 'Roboto Condensed';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.catalog__wrapper{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 50px;
+}
+
+.catalog__header{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 111%;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.catalog__list{
+    li{
+        margin-bottom: 17px;
+        &:last-child{
+            margin-bottom: 0px;
+        }
+        a{
+            overflow: hidden;
+            border-radius: 20px;
+            &::after{
+                content: "";
+                background: rgba(12, 12, 12, 0.63);
+                width: 100%;
+                height: 100%;
+                display: block;
+                position: absolute;
+                top: 0%;
+                left: 0px;
+            }
+
+            &::before{
+                content: "";
+                width: 337px;
+                height: 223px;
+                display: block;
+                background: linear-gradient(195.32deg, rgba(213, 213, 213, 0.55) 12.03%, rgba(243, 243, 243, 0) 100.97%);
+                transform: rotate(295deg);
+                position: absolute;
+                z-index: 3;
+                right: -57%;
+            }
+
+            position: relative;
+            display: block;
+            img{
+                width: 100%;
+            }
+            p{
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%) translateX(-50%);
+                text-align: center;
+                left: 50%;
+                z-index: 4;
+                white-space: nowrap;
+            }
+        }
+    }
+}
+
+@media(min-width: 630px){
+    .catalog__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li{
+            width: 48%;
+        }
+    }
+}
+
+@media(min-width: 920px){
+    .catalog__list{
+        li{
+            width: 32%;
+        }
+    }
+}
+
+@media(min-width: 1100px){
+    .catalog__list{
+        li{
+            width: 24%;
+        }
+    }
+}
+
+@media(min-width: 1200px){
+    .catalog{
+        display: flex;
+    }
+
+    .catalog__wrapper{
+        margin-bottom: 0px;
+        padding-bottom: 42px;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: $max-width;
+        margin-left: auto;
+        margin-right: auto;
+        .catalog__header{
+            font-family: 'Roboto Condensed';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 59px;
+            color: #000000;
+            position: relative;
+            margin-bottom: 65px;
+            &::before{
+                content: "";
+                background: #ADFF00;
+                width: 215px;
+                height: 18px;
+                position: absolute;
+                bottom: 4px;
+                left: 0px;
+                z-index: -1;
+            }
+        }
+
+    }
+
+    .catalog__list{
+        li{
+            margin-bottom: 45px;
+            &:last-child{
+                margin-bottom: 45px;
+            }
+            width: 23%;
+            a{
+                &::before{
+                    right: -28%;
+                    top: 43px;
+                    transform: rotate(655deg);
+                }
+                img{
+                    height: 246px;
+                }
+                p{
+                    font-family: 'Roboto Condensed';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 26px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="ru" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>VSPORT</title>
+</head>
+
+<body class="categoty-page">
+    <!--Header-->
+    <header class="main-header">
+        <section class="header">
+            <h2 class="visually-hidden">Хедер</h2>
+            <div class="header__wrapper">
+                <div class="header__top"><a href="1--index.html" class="header__top-link">
+                        <picture class="header__top-picture">
+                            <source media="(max-width: 1199px)" srcset="img/mobile-logo.svg">
+                            <img class="header__logo" src="img/logo.svg" width="79" height="23" alt="Логотип">
+                        </picture>
+                    </a>
+                    <div class="header__contacts">
+                        <a class="header__tel-first" href="tel:84922324709">8 (492) 232 47 09</a>
+                        <a class="header__tel-second" href="tel:+79007004709">+7 (900) 700 47 09</a>
+                        <p class="header__working-time">В будни с 10:00-19:00</p>
+                    </div>
+                    <button type="button" class="header__mobile-menu-open-trigger js__mobile-menu-open-trigger"></button>
+                    <button type="button" class="header__callback js__callback">Заказать звонок</button>
+                    <div class="header__search">
+                        <form action="/">
+                            <div class="header__search-form-wrapper">
+                                <input class="header__search-input" type="text" placeholder="Поиск по каталогу">
+                                <button type="submit" class="header__search-form-submit"></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="header__links">
+                        <a href="#" class="header__links-comparison">
+                            <span class="header__links-comparison-count">4</span>
+                        </a>
+                        <a href="#" class="header__links-wanted">
+                            <span class="header__links-wanted-count">4</span>
+                        </a>
+                        <a href="#" class="header__links-login">Войти</a>
+                        <a href="#" class="header__links-cart">
+                            <span class="header__links-cart-text">Корзина</span>
+                            <span class="header__links-cart-count">4</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="header__bottom header__bottom--open">
+                    <ul class="header__desktop-menu-list">
+                        <li class="header__desktop-menu-item"><a class="header__desktop-menu-item-link" href="#">О компании</a></li>
+                        <li class="header__desktop-menu-item header__desktop-menu-item--open-trgger-container js__header__desktop-menu-item--open-trgger-container">
+                            <a class="header__desktop-menu-item-link">Каталог</a>
+                            <div class="header__desktop-menu-inner-list-container hide">
+                                <ul class="header__desktop-menu-inner-list-container-list">
+                                    <li>
+                                        <a class="header__desktop-menu-inner-list-container-list-link js__header__desktop-menu-inner-list-container-list-link">Профессиональные силовые тренажеры</a>
+                                        <ul class="header__desktop-menu-inner-list-container-list--innered hide">
+                                            <li>
+                                                <a href="#">Бокс 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Столы 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Армрестлинг 3</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="header__desktop-menu-inner-list-container-list-link js__header__desktop-menu-inner-list-container-list-link" href="#">Профессиональные кардиотренажеры</a>
+                                        <ul class="header__desktop-menu-inner-list-container-list--innered hide">
+                                            <li>
+                                                <a href="#">Бокс 4</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Столы 5</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Армрестлинг 6</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="header__desktop-menu-inner-list-container-list-link js__header__desktop-menu-inner-list-container-list-link" href="#">Тренажеры для дома</a>
+                                        <ul class="header__desktop-menu-inner-list-container-list--innered hide">
+                                            <li>
+                                                <a href="#">Бокс 7</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Столы 8</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Армрестлинг 9</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="header__desktop-menu-inner-list-container-list-link js__header__desktop-menu-inner-list-container-list-link" href="#">Домашние кардиотренажеры</a>
+                                        <ul class="header__desktop-menu-inner-list-container-list--innered hide">
+                                            <li>
+                                                <a href="#">Бокс 10</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Столы 11</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Армрестлинг 12</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header__desktop-menu-item"><a class="header__desktop-menu-item-link" href="#">проекты</a></li>
+                        <li class="header__desktop-menu-item"><a class="header__desktop-menu-item-link" href="#">услуги</a></li>
+                        <li class="header__desktop-menu-item"><a class="header__desktop-menu-item-link" href="#">Контакты</a></li>
+                    </ul>
+                    <ul class="header__desktop-info-list header__desktop-info-list--two">
+                        <li class="header__desktop-info-item"><a href="#" class="header__desktop-info-item-link header__desktop-info-item-link--city">Ваш город: <span>Владимир</span></a></li>
+                        <li class="header__desktop-info-item header__desktop-info-item--shop"><a href="#" class="header__desktop-info-item-link">Наш магазин</a></li>
+                        <li class="header__desktop-info-item header__desktop-info-item--delivery"><a href="#" class="header__desktop-info-item-link">Доставка</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="main">
+        <section class="bread">
+            <h2 class="visually-hidden">Хлебные крошки</h2>
+            <div class="bread__wrapper">
+                <ul>
+                    <li>
+                        <a href="#">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#">Каталог</a>
+                    </li>
+                    <li>
+                        <a>Силовые тренажеры</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="category">
+            <h2 class="visually-hidden">Силовые тренажеры</h2>
+            <div class="category__wrapper">
+                <h2 class="category__title">Силовые тренажеры</h2>
+                <div class="category__container">
+                    <div class="category__left">
+                        <button class="category__filters-open-trigger" type="button"><span>Фильтры</span></button>
+                        <div class="category__filters">
+                            <div class="category__container">
+                            </div>
+                            <div class="category__advantages-desktop">
+                                <h4>С НАМИ ВЫГОДНО</h4>
+                                <ul>
+                                    <li>Доступные цены</li>
+                                    <li>Гарантия на все</li>
+                                    <li>Распродажи и акции</li>
+                                    <li>Любые формы оплаты</li>
+                                    <li>Услуга подъема и сборки</li>
+                                    <li>Доставка по России</li>
+                                    <li>Лучшая продукция на рынке</li>
+                                    <li>По вашим индивидуальным проектам</li>
+                                </ul>
+                            </div>
+                            <div class="category__sertificats-desktop">
+                                <h2>СЕРТИФИКАТЫ</h2>
+                                <div>
+                                    <picture>
+                                        <img src="img/sert.jpg" width="124" height="177" alt="Изображение">
+                                    </picture>
+                                    <picture>
+                                        <img src="img/sert.jpg" width="124" height="177" alt="Изображение">
+                                    </picture>
+                                </div>
+                                <a href="#">Смотреть все</a>
+                            </div>
+                            <div class="category__garanty-desktop">
+                                <h2>ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ</h2>
+                                <h3>Нашли дешевле, <br>мы снизим цену</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__right">
+                        <div class="category__sorts">
+                            <div class="category__sort-item">
+                            </div>
+                            <div class="category__sort-item">
+                            </div>
+                            <div class="category__sort-item">
+                                <p class="category__sort-title">сортировка :</p>
+                                <div class="category__sort-inner-container">
+                                    <button class="category__sort-trigger"><span class="category__sort--price-up">по цене</span></button>
+                                    <div class="category__sort-list-container none">
+                                        <ul class="category__sort-list">
+                                            <li>
+                                                <label>
+                                                    <span>по цене 1</span>
+                                                    <input type="radio" name="sorts">
+                                                    <label>
+                                            </li>
+                                            <li>
+                                                <label>
+                                                    <span>по цене 2</span>
+                                                    <input type="radio" name="sorts">
+                                                    <label>
+                                            </li>
+                                            <li>
+                                                <label>
+                                                    <span>по цене 3</span>
+                                                    <input type="radio" name="sorts">
+                                                    <label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category__goods">
+                            <ul class="category__goods--list">
+                                <li class="category__goods-list-item">
+                                    <div class="category__goods-picture-container">
+                                        <picture>
+                                            <img src="img/good-1.png" width="98" height="96" alt="Изображение">
+                                        </picture>
+                                        <p class="category__goods-picture-mobule-status category__goods-picture-mobule-status--middle-have">Мало</p>
+                                    </div>
+                                    <div class="category__goods-info">
+                                        <h5 class="category__goods-title">915 жим от груди с разделённым ходом рычагов Sports Art</h5>
+                                        <p class="category__goods-title-option-first">Цвет рамы: черно-желтый (другие цвета-опционально)</p>
+                                        <p class="category__goods-title-option-second">Цвет обивки: черный</p>
+                                        <p class="category__goods-title-option-status category__goods-title-option-status--middle">Мало</p>
+                                        <p class="category__goods-title-price-old">20 000 000 р</p>
+                                        <p class="category__goods-title-price-new">15 000 000 р</p>
+                                    </div>
+                                    <div class="category__goods-activites">
+                                        <ul class="category__goods-activites-list">
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-vs"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-like"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-cart"><span>Добавить</span></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="category__goods-list-item">
+                                    <div class="category__goods-picture-container">
+                                        <picture>
+                                            <img src="img/good-1.png" width="98" height="96" alt="Изображение">
+                                        </picture>
+                                        <p class="category__goods-picture-mobule-status category__goods-picture-mobule-status--have">В наличии</p>
+                                    </div>
+                                    <div class="category__goods-info">
+                                        <h5 class="category__goods-title">915 жим от груди с разделённым ходом рычагов Sports Art</h5>
+                                        <p class="category__goods-title-option-first">Цвет рамы: черно-желтый (другие цвета-опционально)</p>
+                                        <p class="category__goods-title-option-second">Цвет обивки: черный</p>
+                                        <p class="category__goods-title-option-status category__goods-title-option-status--have">В наличии</p>
+                                        <p class="category__goods-title-price-old">20 000 000 р</p>
+                                        <p class="category__goods-title-price-new">15 000 000 р</p>
+                                    </div>
+                                    <div class="category__goods-activites">
+                                        <ul class="category__goods-activites-list">
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-vs"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-like"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-cart"><span>Добавить</span></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="category__goods-list-item">
+                                    <div class="category__goods-picture-container">
+                                        <picture>
+                                            <img src="img/good-1.png" width="98" height="96" alt="Изображение">
+                                        </picture>
+                                        <p class="category__goods-picture-mobule-status category__goods-picture-mobule-status--no-have">Нет в наличии</p>
+                                    </div>
+                                    <div class="category__goods-info">
+                                        <h5 class="category__goods-title">915 жим от груди с разделённым ходом рычагов Sports Art</h5>
+                                        <p class="category__goods-title-option-first">Цвет рамы: черно-желтый (другие цвета-опционально)</p>
+                                        <p class="category__goods-title-option-second">Цвет обивки: черный</p>
+                                        <p class="category__goods-title-option-status category__goods-title-option-status--not-have">Нет в наличии</p>
+                                        <p class="category__goods-title-price-old">20 000 000 р</p>
+                                        <p class="category__goods-title-price-new">15 000 000 р</p>
+                                    </div>
+                                    <div class="category__goods-activites">
+                                        <ul class="category__goods-activites-list">
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-vs"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-like"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-cart"><span>Добавить</span></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="category__goods-list-item">
+                                    <div class="category__goods-picture-container">
+                                        <picture>
+                                            <img src="img/good-1.png" width="98" height="96" alt="Изображение">
+                                        </picture>
+                                        <p class="category__goods-picture-mobule-status category__goods-picture-mobule-status--no-have">Нет в наличии</p>
+                                    </div>
+                                    <div class="category__goods-info">
+                                        <h5 class="category__goods-title">915 жим от груди с разделённым ходом рычагов Sports Art</h5>
+                                        <p class="category__goods-title-option-first">Цвет рамы: черно-желтый (другие цвета-опционально)</p>
+                                        <p class="category__goods-title-option-second">Цвет обивки: черный</p>
+                                        <p class="category__goods-title-option-status category__goods-title-option-status--not-have">Нет в наличии</p>
+                                        <p class="category__goods-title-price-old">20 000 000 р</p>
+                                        <p class="category__goods-title-price-new">15 000 000 р</p>
+                                    </div>
+                                    <div class="category__goods-activites">
+                                        <ul class="category__goods-activites-list">
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-vs"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-like"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-cart"><span>Добавить</span></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="category__goods-list-item">
+                                    <div class="category__goods-picture-container">
+                                        <picture>
+                                            <img src="img/good-1.png" width="98" height="96" alt="Изображение">
+                                        </picture>
+                                        <p class="category__goods-picture-mobule-status category__goods-picture-mobule-status--no-have">В наличии</p>
+                                    </div>
+                                    <div class="category__goods-info">
+                                        <h5 class="category__goods-title">915 жим от груди с разделённым ходом рычагов Sports Art</h5>
+                                        <p class="category__goods-title-option-first">Цвет рамы: черно-желтый (другие цвета-опционально)</p>
+                                        <p class="category__goods-title-option-second">Цвет обивки: черный</p>
+                                        <p class="category__goods-title-option-status category__goods-title-option-status--not-have">Нет в наличии</p>
+                                        <p class="category__goods-title-price-old">20 000 000 р</p>
+                                        <p class="category__goods-title-price-new">15 000 000 р</p>
+                                    </div>
+                                    <div class="category__goods-activites">
+                                        <ul class="category__goods-activites-list">
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-vs"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-like"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-cart"><span>Добавить</span></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="category__goods-list-item">
+                                    <div class="category__goods-picture-container">
+                                        <picture>
+                                            <img src="img/good-1.png" width="98" height="96" alt="Изображение">
+                                        </picture>
+                                        <p class="category__goods-picture-mobule-status category__goods-picture-mobule-status--middle-have">Мало</p>
+                                    </div>
+                                    <div class="category__goods-info">
+                                        <h5 class="category__goods-title">915 жим от груди с разделённым ходом рычагов Sports Art</h5>
+                                        <p class="category__goods-title-option-first">Цвет рамы: черно-желтый (другие цвета-опционально)</p>
+                                        <p class="category__goods-title-option-second">Цвет обивки: черный</p>
+                                        <p class="category__goods-title-option-status category__goods-title-option-status--middle">Мало</p>
+                                        <p class="category__goods-title-price-old">20 000 000 р</p>
+                                        <p class="category__goods-title-price-new">15 000 000 р</p>
+                                    </div>
+                                    <div class="category__goods-activites">
+                                        <ul class="category__goods-activites-list">
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-vs"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-like"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-cart"><span>Добавить</span></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="category__goods-list-item">
+                                    <div class="category__goods-picture-container">
+                                        <picture>
+                                            <img src="img/good-1.png" width="98" height="96" alt="Изображение">
+                                        </picture>
+                                        <p class="category__goods-picture-mobule-status category__goods-picture-mobule-status--have">В наличии</p>
+                                    </div>
+                                    <div class="category__goods-info">
+                                        <h5 class="category__goods-title">915 жим от груди с разделённым ходом рычагов Sports Art</h5>
+                                        <p class="category__goods-title-option-first">Цвет рамы: черно-желтый (другие цвета-опционально)</p>
+                                        <p class="category__goods-title-option-second">Цвет обивки: черный</p>
+                                        <p class="category__goods-title-option-status category__goods-title-option-status--have">В наличии</p>
+                                        <p class="category__goods-title-price-old">20 000 000 р</p>
+                                        <p class="category__goods-title-price-new">15 000 000 р</p>
+                                    </div>
+                                    <div class="category__goods-activites">
+                                        <ul class="category__goods-activites-list">
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-vs"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-like"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-cart"><span>Добавить</span></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="category__goods-list-item">
+                                    <div class="category__goods-picture-container">
+                                        <picture>
+                                            <img src="img/good-1.png" width="98" height="96" alt="Изображение">
+                                        </picture>
+                                        <p class="category__goods-picture-mobule-status category__goods-picture-mobule-status--no-have">Нет в наличии</p>
+                                    </div>
+                                    <div class="category__goods-info">
+                                        <h5 class="category__goods-title">915 жим от груди с разделённым ходом рычагов Sports Art</h5>
+                                        <p class="category__goods-title-option-first">Цвет рамы: черно-желтый (другие цвета-опционально)</p>
+                                        <p class="category__goods-title-option-second">Цвет обивки: черный</p>
+                                        <p class="category__goods-title-option-status category__goods-title-option-status--not-have">Нет в наличии</p>
+                                        <p class="category__goods-title-price-old">20 000 000 р</p>
+                                        <p class="category__goods-title-price-new">15 000 000 р</p>
+                                    </div>
+                                    <div class="category__goods-activites">
+                                        <ul class="category__goods-activites-list">
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-vs"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-like"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-cart"><span>Добавить</span></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="category__goods-list-item">
+                                    <div class="category__goods-picture-container">
+                                        <picture>
+                                            <img src="img/good-1.png" width="98" height="96" alt="Изображение">
+                                        </picture>
+                                        <p class="category__goods-picture-mobule-status category__goods-picture-mobule-status--no-have">Нет в наличии</p>
+                                    </div>
+                                    <div class="category__goods-info">
+                                        <h5 class="category__goods-title">915 жим от груди с разделённым ходом рычагов Sports Art</h5>
+                                        <p class="category__goods-title-option-first">Цвет рамы: черно-желтый (другие цвета-опционально)</p>
+                                        <p class="category__goods-title-option-second">Цвет обивки: черный</p>
+                                        <p class="category__goods-title-option-status category__goods-title-option-status--not-have">Нет в наличии</p>
+                                        <p class="category__goods-title-price-old">20 000 000 р</p>
+                                        <p class="category__goods-title-price-new">15 000 000 р</p>
+                                    </div>
+                                    <div class="category__goods-activites">
+                                        <ul class="category__goods-activites-list">
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-vs"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-like"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-cart"><span>Добавить</span></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="category__goods-list-item">
+                                    <div class="category__goods-picture-container">
+                                        <picture>
+                                            <img src="img/good-1.png" width="98" height="96" alt="Изображение">
+                                        </picture>
+                                        <p class="category__goods-picture-mobule-status category__goods-picture-mobule-status--no-have">В наличии</p>
+                                    </div>
+                                    <div class="category__goods-info">
+                                        <h5 class="category__goods-title">915 жим от груди с разделённым ходом рычагов Sports Art</h5>
+                                        <p class="category__goods-title-option-first">Цвет рамы: черно-желтый (другие цвета-опционально)</p>
+                                        <p class="category__goods-title-option-second">Цвет обивки: черный</p>
+                                        <p class="category__goods-title-option-status category__goods-title-option-status--not-have">Нет в наличии</p>
+                                        <p class="category__goods-title-price-old">20 000 000 р</p>
+                                        <p class="category__goods-title-price-new">15 000 000 р</p>
+                                    </div>
+                                    <div class="category__goods-activites">
+                                        <ul class="category__goods-activites-list">
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-vs"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-like"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-cart"><span>Добавить</span></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="category__goods-list-item">
+                                    <div class="category__goods-picture-container">
+                                        <picture>
+                                            <img src="img/good-1.png" width="98" height="96" alt="Изображение">
+                                        </picture>
+                                        <p class="category__goods-picture-mobule-status category__goods-picture-mobule-status--no-have">В наличии</p>
+                                    </div>
+                                    <div class="category__goods-info">
+                                        <h5 class="category__goods-title">915 жим от груди с разделённым ходом рычагов Sports Art</h5>
+                                        <p class="category__goods-title-option-first">Цвет рамы: черно-желтый (другие цвета-опционально)</p>
+                                        <p class="category__goods-title-option-second">Цвет обивки: черный</p>
+                                        <p class="category__goods-title-option-status category__goods-title-option-status--not-have">Нет в наличии</p>
+                                        <p class="category__goods-title-price-old">20 000 000 р</p>
+                                        <p class="category__goods-title-price-new">15 000 000 р</p>
+                                    </div>
+                                    <div class="category__goods-activites">
+                                        <ul class="category__goods-activites-list">
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-vs"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-like"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-cart"><span>Добавить</span></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="category__goods-list-item">
+                                    <div class="category__goods-picture-container">
+                                        <picture>
+                                            <img src="img/good-1.png" width="98" height="96" alt="Изображение">
+                                        </picture>
+                                        <p class="category__goods-picture-mobule-status category__goods-picture-mobule-status--no-have">В наличии</p>
+                                    </div>
+                                    <div class="category__goods-info">
+                                        <h5 class="category__goods-title">915 жим от груди с разделённым ходом рычагов Sports Art</h5>
+                                        <p class="category__goods-title-option-first">Цвет рамы: черно-желтый (другие цвета-опционально)</p>
+                                        <p class="category__goods-title-option-second">Цвет обивки: черный</p>
+                                        <p class="category__goods-title-option-status category__goods-title-option-status--not-have">Нет в наличии</p>
+                                        <p class="category__goods-title-price-old">20 000 000 р</p>
+                                        <p class="category__goods-title-price-new">15 000 000 р</p>
+                                    </div>
+                                    <div class="category__goods-activites">
+                                        <ul class="category__goods-activites-list">
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-vs"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-like"></button>
+                                            </li>
+                                            <li class="category__goods-activites-item">
+                                                <button type="button" class="category__goods-activites-cart"><span>Добавить</span></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="category__goods-pagination">
+                                <ul class="category__goods-pagination-list">
+                                    <li class="category__goods-pagination-item">
+                                        <a class="category__goods-pagination-link" href="#">Пред.</a>
+                                    </li>
+                                    <li class="category__goods-pagination-item">
+                                        <a class="category__goods-pagination-link" href="#">1</a>
+                                    </li>
+                                    <li class="category__goods-pagination-item">
+                                        <a class="category__goods-pagination-link category__goods-pagination-link--active" href="#">2</a>
+                                    </li>
+                                    <li class="category__goods-pagination-item">
+                                        <a class="category__goods-pagination-link category__goods-pagination-link--more" href="#">...</a>
+                                    </li>
+                                    <li class="category__goods-pagination-item">
+                                        <a class="category__goods-pagination-link" href="#">10</a>
+                                    </li>
+                                    <li class="category__goods-pagination-item">
+                                        <a class="category__goods-pagination-link" href="#">След.</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer class="main-footer">
+        <section class="footer">
+            <h2 class="visually-hidden">Футер</h2>
+            <div class="footer__wrapper footer__wrapper--top">
+                <div class="footer__main"><a href="1--index.html" class="footer__main-logo">
+                        <picture>
+                            <source media="(max-width: 1199px)" srcset="img/mobile-logo.svg">
+                            <img src="img/logo.svg" width="119" height="35" alt="Логотип">
+                        </picture>
+                    </a><a class="footer__main-vk" target="_blank" href="https://vk.com/vsporteonline">Наша группа <br>ВКонтакте</a>
+                    <p class="footer__main-copyright">© 2002—2022 VSPORT</p>
+                </div>
+                <div class="footer__menu">
+                    <div class="footer__menu-container footer__menu-first">
+                        <h2>Наша продукция</h2>
+                        <ul>
+                            <li>
+                                <a href="#">Для тренажерного зала</a>
+                            </li>
+                            <li>
+                                <a href="#">Для тяжелой атлетики</a>
+                            </li>
+                            <li>
+                                <a href="#">Для спортзала</a>
+                            </li>
+                            <li>
+                                <a href="#">Для кроссфита</a>
+                            </li>
+                            <li>
+                                <a href="#">Для фитнеса</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu-container footer__menu-second">
+                        <h2>Сервис</h2>
+                        <ul>
+                            <li>
+                                <a href="#">Гарантийные обязательства</a>
+                            </li>
+                            <li>
+                                <a href="#">Заявка на сервис</a>
+                            </li>
+                            <li>
+                                <a href="#">Доставка тренажеров</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__info">
+                    <h2 class="footer__info-title">Адрес</h2>
+                    <ul>
+                        <li class="footer__info-adress">г. Владимир, ул. Большая Московская, 19</li>
+                        <li class="footer__info-tels">
+                            <p><a href="tel:84922324709">8 (492) 232 47 09</a></p>
+                            <p><a href="tel:89038339669">8 (903) 833 96 69 (Билайн)</a></p>
+                            <p><a href="tel:88007004700">8 (800) 700 47 00</a></p>
+                            <p><a href="tel:89157939769">8 (915) 793 97 69 (МТС)</a></p>
+                            <p><a href="tel:89209257935">8 (920) 925 79 35 (Мегафон)</a></p>
+                        </li>
+                        <li class="footer__info-emails"><a href="mailto:v-sport33@mail.ru">v-sport33@mail.ru</a></li>
+                        <li class="footer__info-times">в будни с 10:00 - 19:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__wrapper footer__wrapper--bottom">
+                <div class="footer__copyright">
+                    <p class="footer__copyright-info">Xарактеристики, комплект поставки и внешний вид товара могут отличаться от указанных или могут быть изменены производителем без отражения в каталоге. Приведенные на нашем сайте цены, характеристики, количес тво товаров, а так же информация об их наличии на складе носят ознакомительный характер и не являются публичной офертой, определенной пунктом 2 статьи 437 ГК РФ. Для получения информации о характеристиках товаров, их наличии и стоимости необходимо связаться с менеджерами нашей компании. Оплата производится только после подтверждения резерва.</p>
+                    <p class="footer__copyright-data">© 2002—2022 VSPORT</p>
+                </div>
+            </div>
+        </section>
+    </footer><!-- Меню Нижнее-->
+    <section class="menu">
+        <h2 class="visually-hidden">Меню Нижнее</h2>
+        <div class="menu__wrapper">
+            <ul class="menu__list">
+                <li>
+                    <a href="#" class="menu__link menu__link--home"></a>
+                </li>
+                <li>
+                    <a href="#" class="menu__link menu__link--search js__menu-link--search"></a>
+                </li>
+                <li>
+                    <a href="#" class="menu__link menu__link--vs"></a>
+                </li>
+                <li>
+                    <a href="#" class="menu__link menu__link--like"></a>
+                </li>
+                <li>
+                    <a href="#" class="menu__link menu__link--cart">
+                        <span>4</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section><!-- Поиск-->
+    <section class="search hide">
+        <h2 class="visually-hidden">Поиск</h2>
+        <div class="search__wrapper">
+            <div class="search__top">
+                <form class="search__form">
+                    <div class="search__input-container">
+                        <button class="search__input-container-submit" type="submit"></button>
+                        <input class="search__input-container-input" type="text" placeholder="Тренажер">
+                    </div>
+                </form>
+                <button class="search__top--cencle" type="button">Отмена</button>
+            </div>
+            <div class="search__bottom">
+                <ul class="search__list">
+                    <li class="search__item">
+                        <a href="#" class="search__item-container">
+                            <div class="search__item-image-contaner">
+                                <picture class="search__item-container-picture">
+                                    <img src="img/search-img.jpg" alt="Изображение" width="58" height="64">
+                                </picture>
+                            </div>
+                            <div class="search__item-info-container">
+                                <p>Е-7035 ТЯГА СВЕРХУ. ВЕРТИКАЛЬНЫЙ БЛОК (PULLDOWN) СТЕК 110 КГ</p>
+                                <h2>150 000 р</h2>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="search__item">
+                        <a href="#" class="search__item-container">
+                            <div class="search__item-image-contaner">
+                                <picture class="search__item-container-picture">
+                                    <img src="img/search-img.jpg" alt="Изображение" width="58" height="64">
+                                </picture>
+                            </div>
+                            <div class="search__item-info-container">
+                                <p>Е-7035 ТЯГА СВЕРХУ. ВЕРТИКАЛЬНЫЙ БЛОК (PULLDOWN) СТЕК 110 КГ</p>
+                                <h2>150 000 р</h2>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="search__item">
+                        <a href="#" class="search__item-container">
+                            <div class="search__item-image-contaner">
+                                <picture class="search__item-container-picture">
+                                    <img src="img/search-img.jpg" alt="Изображение" width="58" height="64">
+                                </picture>
+                            </div>
+                            <div class="search__item-info-container">
+                                <p>Е-7035 ТЯГА СВЕРХУ. ВЕРТИКАЛЬНЫЙ БЛОК (PULLDOWN) СТЕК 110 КГ</p>
+                                <h2>150 000 р</h2>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="search__all">Все результаты</a>
+            </div>
+        </div>
+    </section><!-- Заказать звонок-->
+    <section class="callback hide">
+        <h2 class="visually-hidden">Заказать звонок</h2>
+        <div class="callback__wrapper">
+            <div class="callback__container">
+                <button class="callback__close"></button>
+                <h2 class="callback__title">Заказать звонок</h2>
+                <form class="callback__form">
+                    <input type="text" placeholder="Ваше имя *" required>
+                    <input type="text" placeholder="Телефон *" required>
+                    <p>Нажимая на кнопку "отправить" я подтверждаю согласие с политикой конфиденциальности.</p>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js">
+    </script>
+</body>
+
+</html>

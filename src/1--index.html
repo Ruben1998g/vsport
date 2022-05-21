@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="ru" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>VSPORT</title>
+</head>
+
+<body class="index-page">
+    <!--Header-->
+    <header class="main-header">
+        <section class="header">
+            <h2 class="visually-hidden">Хедер</h2>
+            <div class="header__wrapper">
+                <div class="header__top"><a class="header__top-link">
+                        <picture class="header__top-picture">
+                            <source media="(max-width: 1199px)" srcset="img/mobile-logo.svg">
+                            <img class="header__logo" src="img/logo.svg" width="79" height="23" alt="Логотип">
+                        </picture>
+                    </a>
+                    <div class="header__contacts">
+                        <a class="header__tel-first" href="tel:84922324709">8 (492) 232 47 09</a>
+                        <a class="header__tel-second" href="tel:+79007004709">+7 (900) 700 47 09</a>
+                        <p class="header__working-time">В будни с 10:00-19:00</p>
+                    </div>
+                    <button type="button" class="header__mobile-menu-open-trigger js__mobile-menu-open-trigger"></button>
+                    <button type="button" class="header__callback js__callback">Заказать звонок</button>
+                    <div class="header__search">
+                        <form action="/">
+                            <div class="header__search-form-wrapper">
+                                <input class="header__search-input" type="text" placeholder="Поиск по каталогу">
+                                <button type="submit" class="header__search-form-submit"></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="header__links">
+                        <a href="#" class="header__links-comparison">
+                            <span class="header__links-comparison-count">4</span>
+                        </a>
+                        <a href="#" class="header__links-wanted">
+                            <span class="header__links-wanted-count">4</span>
+                        </a>
+                        <a href="#" class="header__links-login">Войти</a>
+                        <a href="#" class="header__links-cart">
+                            <span class="header__links-cart-text">Корзина</span>
+                            <span class="header__links-cart-count">4</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="header__bottom header__bottom--open">
+                    <ul class="header__desktop-menu-list">
+                        <li class="header__desktop-menu-item"><a class="header__desktop-menu-item-link" href="#">О компании</a></li>
+                        <li class="header__desktop-menu-item header__desktop-menu-item--open-trgger-container js__header__desktop-menu-item--open-trgger-container">
+                            <a class="header__desktop-menu-item-link">Каталог</a>
+                            <div class="header__desktop-menu-inner-list-container hide">
+                                <ul class="header__desktop-menu-inner-list-container-list">
+                                    <li>
+                                        <a class="header__desktop-menu-inner-list-container-list-link js__header__desktop-menu-inner-list-container-list-link">Профессиональные силовые тренажеры</a>
+                                        <ul class="header__desktop-menu-inner-list-container-list--innered hide">
+                                            <li>
+                                                <a href="#">Бокс 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Столы 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Армрестлинг 3</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="header__desktop-menu-inner-list-container-list-link js__header__desktop-menu-inner-list-container-list-link" href="#">Профессиональные кардиотренажеры</a>
+                                        <ul class="header__desktop-menu-inner-list-container-list--innered hide">
+                                            <li>
+                                                <a href="#">Бокс 4</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Столы 5</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Армрестлинг 6</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="header__desktop-menu-inner-list-container-list-link js__header__desktop-menu-inner-list-container-list-link" href="#">Тренажеры для дома</a>
+                                        <ul class="header__desktop-menu-inner-list-container-list--innered hide">
+                                            <li>
+                                                <a href="#">Бокс 7</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Столы 8</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Армрестлинг 9</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="header__desktop-menu-inner-list-container-list-link js__header__desktop-menu-inner-list-container-list-link" href="#">Домашние кардиотренажеры</a>
+                                        <ul class="header__desktop-menu-inner-list-container-list--innered hide">
+                                            <li>
+                                                <a href="#">Бокс 10</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Столы 11</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Армрестлинг 12</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header__desktop-menu-item"><a class="header__desktop-menu-item-link" href="#">проекты</a></li>
+                        <li class="header__desktop-menu-item"><a class="header__desktop-menu-item-link" href="#">услуги</a></li>
+                        <li class="header__desktop-menu-item"><a class="header__desktop-menu-item-link" href="#">Контакты</a></li>
+                    </ul>
+                    <ul class="header__desktop-info-list header__desktop-info-list--two">
+                        <li class="header__desktop-info-item"><a href="#" class="header__desktop-info-item-link header__desktop-info-item-link--city">Ваш город: <span>Владимир</span></a></li>
+                        <li class="header__desktop-info-item header__desktop-info-item--shop"><a href="#" class="header__desktop-info-item-link">Наш магазин</a></li>
+                        <li class="header__desktop-info-item header__desktop-info-item--delivery"><a href="#" class="header__desktop-info-item-link">Доставка</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="main">
+        <!--Главный слайдер-->
+        <section class="slider">
+            <h2 class="visually-hidden">Главный слайдер</h2>
+            <div class="slider__wrapper">
+                <div class="swiper slider__swipper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slider__slide-wrapper">
+                                <picture class="slider__picture">
+                                    <img src="img/slider-1.jpg" width="" heigth="" alt="Изображение">
+                                </picture>
+                                <div class="slider__info">
+                                    <h2>Укомплектуем ваш <br>домашний фитнес-зал</h2>
+                                    <p>“Занимайтесь там, где комфортно”</p>
+                                    <a href="#">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider__slide-wrapper">
+                                <picture class="slider__picture">
+                                    <img src="img/slider-2.jpg" width="" heigth="" alt="Изображение">
+                                </picture>
+                                <div class="slider__info">
+                                    <h2>Безграничные возможности <br>премиум качества</h2>
+                                    <p>“Ворвись в новый сезон”</p>
+                                    <a href="#">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider__slide-wrapper">
+                                <picture class="slider__picture">
+                                    <img src="img/slider-3.jpg" width="" heigth="" alt="Изображение">
+                                </picture>
+                                <div class="slider__info">
+                                    <h2>Распродажа кардиотренажеров <br>SPORTSART</h2>
+                                    <p>“К здоровому телу вместе с <span class="slider__info-logo"></span>“</p>
+                                    <a href="#">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!--Тренажеры V-SPORT официальный сайт-->
+        <section class="oficial">
+            <h2 class="visually-hidden">Тренажеры V-SPORT официальный сайт</h2>
+            <div class="oficial__wrapper">
+                <h2 class="oficial__header"><span>Тренажеры V-SPORT официальный сайт</span></h2>
+                <p class="oficial__description">V-SPORT- это марка спортивных тренажеров для профессионалов и любителей. Мы производим спортивный инвентарь для тех, <br class="oficial__description--br">кто хочет получить гарантированный результат в зале.<br><br> Наши тренажеры соответствуют европейским стандартам качества и безопасности. <br class="oficial__description--br">Они широко востребованы в России, странах СНГ и в Европе.</p>
+            </div>
+        </section>
+        <!--Оборудование для тренажерного зала-->
+        <section class="mashine">
+            <h2 class="visually-hidden">Оборудование для тренажерного зала</h2>
+            <div class="mashine__wrapper">
+                <h2 class="mashine__title">Оборудование для тренажерного зала<h2>
+                        <ul class="mashine__list">
+                            <li>
+                                <a href="#" class="mashine__item-container">
+                                    <picture>
+                                        <img src="img/mashin-1.png" width="96" height="96" alt="Изображение">
+                                    </picture>
+                                    <h2 class="mashine__item-title">Спортивное питание</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="mashine__item-container">
+                                    <picture>
+                                        <img src="img/mashin-2.png" width="96" height="96" alt="Изображение">
+                                    </picture>
+                                    <h2 class="mashine__item-title">Тренажеры для дома</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="mashine__item-container">
+                                    <picture>
+                                        <img src="img/mashin-3.png" width="96" height="96" alt="Изображение">
+                                    </picture>
+                                    <h2 class="mashine__item-title">Тренажеры для зала</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="mashine__item-container">
+                                    <picture>
+                                        <img src="img/mashin-4.png" width="96" height="96" alt="Изображение">
+                                    </picture>
+                                    <h2 class="mashine__item-title">Грифы и диски</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="mashine__item-container">
+                                    <picture>
+                                        <img src="img/mashin-5.png" width="96" height="96" alt="Изображение">
+                                    </picture>
+                                    <h2 class="mashine__item-title">Уличные тренажеры</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="mashine__item-container">
+                                    <picture>
+                                        <img src="img/mashin-6.png" width="96" height="96" alt="Изображение">
+                                    </picture>
+                                    <h2 class="mashine__item-title">Единоборства</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="mashine__item-container">
+                                    <picture>
+                                        <img src="img/mashin-7.png" width="96" height="96" alt="Изображение">
+                                    </picture>
+                                    <h2 class="mashine__item-title">Детские площадки</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="mashine__item-container">
+                                    <picture>
+                                        <img src="img/mashin-8.png" width="96" height="96" alt="Изображение">
+                                    </picture>
+                                    <h2 class="mashine__item-title">Аксессуары для спорта</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="mashine__item-container">
+                                    <picture>
+                                        <img src="img/mashin-9.png" width="96" height="96" alt="Изображение">
+                                    </picture>
+                                    <h2 class="mashine__item-title">Спортивные покрытия</h2>
+                                </a>
+                            </li>
+                        </ul>
+            </div>
+        </section>
+        <!--Популярные модели-->
+        <section class="popular">
+            <h2 class="visually-hidden">Популярные модели</h2>
+            <div class="popular__wrapper">
+                <h2 class="popular__head-title">Популярные модели</h2>
+                <div class="popuplar__slider-container">
+                    <div class="swiper popuplar__slider js__popuplar__slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="popuplar__slide-wrapper">
+                                    <picture>
+                                        <img src="img/popular-1.png" width="224" height="219" alt="Изображение">
+                                    </picture>
+                                    <div class="popular__info">
+                                        <h3 class="popular__title">Е-7035 ТЯГА СВЕРХУ. ВЕРТИКАЛЬНЫЙ БЛОК (PULLDOWN) СТЕК 110 КГ</h3>
+                                        <div class="popular__cost-container">
+                                            <p class="popular__last-cost">20 000 000 р</p>
+                                            <p class="popular__new-cost">15 000 000 р</p>
+                                        </div>
+                                        <div class="popular__actions">
+                                            <button type="button" class="popular__add-cart"><span>Добавить</span></button>
+                                            <button type="button" class="popular__vs"></button>
+                                            <button type="button" class="popular__like"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popuplar__slide-wrapper">
+                                    <picture>
+                                        <img src="img/popular-1.png" width="224" height="219" alt="Изображение">
+                                    </picture>
+                                    <div class="popular__info">
+                                        <h3 class="popular__title">Е-7035 ТЯГА СВЕРХУ. ВЕРТИКАЛЬНЫЙ БЛОК (PULLDOWN) СТЕК 110 КГ</h3>
+                                        <div class="popular__cost-container">
+                                            <p class="popular__last-cost">20 000 000 р</p>
+                                            <p class="popular__new-cost">15 000 000 р</p>
+                                        </div>
+                                        <div class="popular__actions">
+                                            <button type="button" class="popular__add-cart"><span>Добавить</span></button>
+                                            <button type="button" class="popular__vs"></button>
+                                            <button type="button" class="popular__like"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popuplar__slide-wrapper">
+                                    <picture>
+                                        <img src="img/popular-1.png" width="224" height="219" alt="Изображение">
+                                    </picture>
+                                    <div class="popular__info">
+                                        <h3 class="popular__title">Е-7035 ТЯГА СВЕРХУ. ВЕРТИКАЛЬНЫЙ БЛОК (PULLDOWN) СТЕК 110 КГ</h3>
+                                        <div class="popular__cost-container">
+                                            <p class="popular__last-cost">20 000 000 р</p>
+                                            <p class="popular__new-cost">15 000 000 р</p>
+                                        </div>
+                                        <div class="popular__actions">
+                                            <button type="button" class="popular__add-cart"><span>Добавить</span></button>
+                                            <button type="button" class="popular__vs"></button>
+                                            <button type="button" class="popular__like"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popuplar__slide-wrapper">
+                                    <picture>
+                                        <img src="img/popular-1.png" width="224" height="219" alt="Изображение">
+                                    </picture>
+                                    <div class="popular__info">
+                                        <h3 class="popular__title">Е-7035 ТЯГА СВЕРХУ. ВЕРТИКАЛЬНЫЙ БЛОК (PULLDOWN) СТЕК 110 КГ</h3>
+                                        <div class="popular__cost-container">
+                                            <p class="popular__last-cost">20 000 000 р</p>
+                                            <p class="popular__new-cost">15 000 000 р</p>
+                                        </div>
+                                        <div class="popular__actions">
+                                            <button type="button" class="popular__add-cart"><span>Добавить</span></button>
+                                            <button type="button" class="popular__vs"></button>
+                                            <button type="button" class="popular__like"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popuplar__slide-wrapper">
+                                    <picture>
+                                        <img src="img/popular-1.png" width="224" height="219" alt="Изображение">
+                                    </picture>
+                                    <div class="popular__info">
+                                        <h3 class="popular__title">Е-7035 ТЯГА СВЕРХУ. ВЕРТИКАЛЬНЫЙ БЛОК (PULLDOWN) СТЕК 110 КГ</h3>
+                                        <div class="popular__cost-container">
+                                            <p class="popular__last-cost">20 000 000 р</p>
+                                            <p class="popular__new-cost">15 000 000 р</p>
+                                        </div>
+                                        <div class="popular__actions">
+                                            <button type="button" class="popular__add-cart"><span>Добавить</span></button>
+                                            <button type="button" class="popular__vs"></button>
+                                            <button type="button" class="popular__like"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popuplar__slide-wrapper">
+                                    <picture>
+                                        <img src="img/popular-1.png" width="224" height="219" alt="Изображение">
+                                    </picture>
+                                    <div class="popular__info">
+                                        <h3 class="popular__title">Е-7035 ТЯГА СВЕРХУ. ВЕРТИКАЛЬНЫЙ БЛОК (PULLDOWN) СТЕК 110 КГ</h3>
+                                        <div class="popular__cost-container">
+                                            <p class="popular__last-cost">20 000 000 р</p>
+                                            <p class="popular__new-cost">15 000 000 р</p>
+                                        </div>
+                                        <div class="popular__actions">
+                                            <button type="button" class="popular__add-cart"><span>Добавить</span></button>
+                                            <button type="button" class="popular__vs"></button>
+                                            <button type="button" class="popular__like"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <button class="popuplar__more">Посмотреть все</button>
+                </div>
+            </div>
+        </section>
+        <!--Почему выбирают нас?-->
+        <section class="faq">
+            <h2 class="visually-hidden">Почему выбирают нас?</h2>
+            <div class="faq__wrapper">
+                <div class="faq__head-wrapper">
+                    <div class="faq__top">
+                        <img class="faq__top-img-1" src="img/faq-img-1.jpg" width="166" height="131" alt="Изображенеи">
+                        <img class="faq__top-img-2" src="img/faq-img-2.jpg" width="156" height="117" alt="Изображенеи">
+                    </div>
+                    <div class="faq__middle">
+                        <p>Линейки наших спортивных тренажеров выбирают известные фитнес клубы, их устанавливают дома, а с недавних пор и на улице – мы разработали серию оборудования для уличных тренировок.</p>
+                        <p>Ассортимент товара также включает в себя и кардио-тренажеры известных марок: <br><span>PulseFitness, SportsArt, Fitex.</span></p>
+                        <p>Являясь официальным представителем этих брендов, нашими сотрудниками изучены особенности каждого тренажера, поэтому мы готовы предоставить максимально подробную информацию о каждой продукции.</p>
+                        <p>Мы реализуем тренажеры оптом и в розницу от бренда V-Sport . Нам ставят высокие оценки те, кто долго искал надежное оборудование для частого использования по выгодным ценам.</p>
+                    </div>
+                </div>
+                <div class="faq__bottom">
+                    <h2 class="faq__bottom-title">Почему выбирают нас?</h2>
+                    <ul>
+                        <li>
+                            <p><span>С нами можно быстро и качественно оснастить фитнес клуб необходимым набором спортинвентаря.</span></p>
+                        </li>
+                        <li>
+                            <p><span>Мы помогаем частным клиентам, желающим приобрести профессиональные тренажеры для себя, подобрать оборудование с учетом всех пожеланий, возможностей и целей.</span></p>
+                        </li>
+                        <li>
+                            <p><span>У нас есть продукция для новичков, любителей и профессионалов, что позволяет вам не тратить время на поиск других поставщиков, а собрать комплект необходимых тренажеров в одном месте.</span></p>
+                        </li>
+                        <li>
+                            <p><span>Самые выгодные цены, уникальные предложения и гибкие условия по доставке – мы обслуживаем своих клиентов так, чтобы они обязательно вернулись к нам снова.</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--Статьи - Новости-->
+        <section class="news">
+            <h2 class="visually-hidden">Статьи - Новости</h2>
+            <div class="news__wrapper">
+                <div class="news__item news__item--news news__item--news-one">
+                    <h2>Статьи</h2>
+                    <ul>
+                        <li>
+                            <a href="#" class="news__item-link">
+                                <picture>
+                                    <img src="img/news-1.jpg" width="290" height="159" alt="Изображение">
+                                </picture>
+                                <div class="news__info">
+                                    <h3>Статья 2 Название, в две строки</h3>
+                                    <p class="news__info-count">760</p>
+                                    <p class="news__info-data">12.12.2022</p>
+                                </div>
+                            </a>
+                            <div class="news__actions">
+                                <a class="news__more-info" href="#"><span>Подробнее</span></a>
+                                <button class="news__like"></button>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="news__item-link">
+                                <picture>
+                                    <img src="img/news-1.jpg" width="290" height="159" alt="Изображение">
+                                </picture>
+                                <div class="news__info">
+                                    <h3>Статья 2 Название, в две строки</h3>
+                                    <p class="news__info-count">760</p>
+                                    <p class="news__info-data">12.12.2022</p>
+                                </div>
+                            </a>
+                            <div class="news__actions">
+                                <a class="news__more-info" href="#"><span>Подробнее</span></a>
+                                <button class="news__like"></button>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="news__item-link">
+                                <picture>
+                                    <img src="img/news-1.jpg" width="290" height="159" alt="Изображение">
+                                </picture>
+                                <div class="news__info">
+                                    <h3>Статья 2 Название, в две строки</h3>
+                                    <p class="news__info-count">760</p>
+                                    <p class="news__info-data">12.12.2022</p>
+                                </div>
+                            </a>
+                            <div class="news__actions">
+                                <a class="news__more-info" href="#"><span>Подробнее</span></a>
+                                <button class="news__like"></button>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="#" class="news__itms-more">Открыть еще</a>
+                </div>
+                <div class="news__item news__item--news-two">
+                    <h2>Новости</h2>
+                    <ul>
+                        <li>
+                            <a href="#" class="news__item-link">
+                                <picture>
+                                    <img src="img/news-1.jpg" width="290" height="159" alt="Изображение">
+                                </picture>
+                                <div class="news__info">
+                                    <h3>Статья 2 Название, в две строки</h3>
+                                    <p class="news__info-count">760</p>
+                                    <p class="news__info-data">12.12.2022</p>
+                                </div>
+                            </a>
+                            <div class="news__actions">
+                                <a class="news__more-info" href="#"><span>Подробнее</span></a>
+                                <button class="news__like"></button>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="news__item-link">
+                                <picture>
+                                    <img src="img/news-1.jpg" width="290" height="159" alt="Изображение">
+                                </picture>
+                                <div class="news__info">
+                                    <h3>Статья 2 Название, в две строки</h3>
+                                    <p class="news__info-count">760</p>
+                                    <p class="news__info-data">12.12.2022</p>
+                                </div>
+                            </a>
+                            <div class="news__actions">
+                                <a class="news__more-info" href="#"><span>Подробнее</span></a>
+                                <button class="news__like"></button>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="#" class="news__itms-more">Открыть еще</a>
+                </div>
+            </div>
+        </section>
+        <!--Наши партнеры-->
+        <section class="partners">
+            <h2 class="visually-hidden">Наши партнеры</h2>
+            <div class="partners__wrapper">
+                <h2 class="partners__title">Наши партнеры</h2>
+                <div class="swiper partners__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="img/partner-1.png" alt="Изображение" width="127" height="26">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="img/partner-2.png" alt="Изображение" width="101" height="26">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="img/partner-3.png" alt="Изображение" width="127" height="30">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="img/partner-4.png" alt="Изображение" width="124" height="34">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="img/partner-5.png" alt="Изображение" width="127" height="15">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="img/partner-1.png" alt="Изображение" width="126" height="24">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer class="main-footer">
+        <section class="footer">
+            <h2 class="visually-hidden">Футер</h2>
+            <div class="footer__wrapper footer__wrapper--top">
+                <div class="footer__main"><a class="footer__main-logo">
+                        <picture>
+                            <source media="(max-width: 1199px)" srcset="img/mobile-logo.svg">
+                            <img src="img/logo.svg" width="119" height="35" alt="Логотип">
+                        </picture>
+                    </a><a class="footer__main-vk" target="_blank" href="https://vk.com/vsporteonline">Наша группа <br>ВКонтакте</a>
+                    <p class="footer__main-copyright">© 2002—2022 VSPORT</p>
+                </div>
+                <div class="footer__menu">
+                    <div class="footer__menu-container footer__menu-first">
+                        <h2>Наша продукция</h2>
+                        <ul>
+                            <li>
+                                <a href="#">Для тренажерного зала</a>
+                            </li>
+                            <li>
+                                <a href="#">Для тяжелой атлетики</a>
+                            </li>
+                            <li>
+                                <a href="#">Для спортзала</a>
+                            </li>
+                            <li>
+                                <a href="#">Для кроссфита</a>
+                            </li>
+                            <li>
+                                <a href="#">Для фитнеса</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu-container footer__menu-second">
+                        <h2>Сервис</h2>
+                        <ul>
+                            <li>
+                                <a href="#">Гарантийные обязательства</a>
+                            </li>
+                            <li>
+                                <a href="#">Заявка на сервис</a>
+                            </li>
+                            <li>
+                                <a href="#">Доставка тренажеров</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__info">
+                    <h2 class="footer__info-title">Адрес</h2>
+                    <ul>
+                        <li class="footer__info-adress">г. Владимир, ул. Большая Московская, 19</li>
+                        <li class="footer__info-tels">
+                            <p><a href="tel:84922324709">8 (492) 232 47 09</a></p>
+                            <p><a href="tel:89038339669">8 (903) 833 96 69 (Билайн)</a></p>
+                            <p><a href="tel:88007004700">8 (800) 700 47 00</a></p>
+                            <p><a href="tel:89157939769">8 (915) 793 97 69 (МТС)</a></p>
+                            <p><a href="tel:89209257935">8 (920) 925 79 35 (Мегафон)</a></p>
+                        </li>
+                        <li class="footer__info-emails"><a href="mailto:v-sport33@mail.ru">v-sport33@mail.ru</a></li>
+                        <li class="footer__info-times">в будни с 10:00 - 19:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__wrapper footer__wrapper--bottom">
+                <div class="footer__copyright">
+                    <p class="footer__copyright-info">Xарактеристики, комплект поставки и внешний вид товара могут отличаться от указанных или могут быть изменены производителем без отражения в каталоге. Приведенные на нашем сайте цены, характеристики, количес тво товаров, а так же информация об их наличии на складе носят ознакомительный характер и не являются публичной офертой, определенной пунктом 2 статьи 437 ГК РФ. Для получения информации о характеристиках товаров, их наличии и стоимости необходимо связаться с менеджерами нашей компании. Оплата производится только после подтверждения резерва.</p>
+                    <p class="footer__copyright-data">© 2002—2022 VSPORT</p>
+                </div>
+            </div>
+        </section>
+    </footer><!-- Меню Нижнее-->
+    <section class="menu">
+        <h2 class="visually-hidden">Меню Нижнее</h2>
+        <div class="menu__wrapper">
+            <ul class="menu__list">
+                <li>
+                    <a href="#" class="menu__link menu__link--home"></a>
+                </li>
+                <li>
+                    <a href="#" class="menu__link menu__link--search js__menu-link--search"></a>
+                </li>
+                <li>
+                    <a href="#" class="menu__link menu__link--vs"></a>
+                </li>
+                <li>
+                    <a href="#" class="menu__link menu__link--like"></a>
+                </li>
+                <li>
+                    <a href="#" class="menu__link menu__link--cart">
+                        <span>4</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section><!-- Поиск-->
+    <section class="search hide">
+        <h2 class="visually-hidden">Поиск</h2>
+        <div class="search__wrapper">
+            <div class="search__top">
+                <form class="search__form">
+                    <div class="search__input-container">
+                        <button class="search__input-container-submit" type="submit"></button>
+                        <input class="search__input-container-input" type="text" placeholder="Тренажер">
+                    </div>
+                </form>
+                <button class="search__top--cencle" type="button">Отмена</button>
+            </div>
+            <div class="search__bottom">
+                <ul class="search__list">
+                    <li class="search__item">
+                        <a href="#" class="search__item-container">
+                            <div class="search__item-image-contaner">
+                                <picture class="search__item-container-picture">
+                                    <img src="img/search-img.jpg" alt="Изображение" width="58" height="64">
+                                </picture>
+                            </div>
+                            <div class="search__item-info-container">
+                                <p>Е-7035 ТЯГА СВЕРХУ. ВЕРТИКАЛЬНЫЙ БЛОК (PULLDOWN) СТЕК 110 КГ</p>
+                                <h2>150 000 р</h2>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="search__item">
+                        <a href="#" class="search__item-container">
+                            <div class="search__item-image-contaner">
+                                <picture class="search__item-container-picture">
+                                    <img src="img/search-img.jpg" alt="Изображение" width="58" height="64">
+                                </picture>
+                            </div>
+                            <div class="search__item-info-container">
+                                <p>Е-7035 ТЯГА СВЕРХУ. ВЕРТИКАЛЬНЫЙ БЛОК (PULLDOWN) СТЕК 110 КГ</p>
+                                <h2>150 000 р</h2>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="search__item">
+                        <a href="#" class="search__item-container">
+                            <div class="search__item-image-contaner">
+                                <picture class="search__item-container-picture">
+                                    <img src="img/search-img.jpg" alt="Изображение" width="58" height="64">
+                                </picture>
+                            </div>
+                            <div class="search__item-info-container">
+                                <p>Е-7035 ТЯГА СВЕРХУ. ВЕРТИКАЛЬНЫЙ БЛОК (PULLDOWN) СТЕК 110 КГ</p>
+                                <h2>150 000 р</h2>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="search__all">Все результаты</a>
+            </div>
+        </div>
+    </section><!-- Заказать звонок-->
+    <section class="callback hide">
+        <h2 class="visually-hidden">Заказать звонок</h2>
+        <div class="callback__wrapper">
+            <div class="callback__container">
+                <button class="callback__close"></button>
+                <h2 class="callback__title">Заказать звонок</h2>
+                <form class="callback__form">
+                    <input type="text" placeholder="Ваше имя *" required>
+                    <input type="text" placeholder="Телефон *" required>
+                    <p>Нажимая на кнопку "отправить" я подтверждаю согласие с политикой конфиденциальности.</p>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js">
+    </script>
+</body>
+
+</html>

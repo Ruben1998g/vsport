@@ -1,0 +1,87 @@
+.oficial{
+    .oficial__wrapper{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 65px;
+        padding-bottom: 50px;
+    }
+
+    .oficial__header{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 111%;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 41px;
+    }
+
+    .oficial__description{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #1B1B1B;
+        br.oficial__description--br{
+            display: none;
+        }
+    }
+}
+
+@media(min-width: 1200px){
+    .oficial{
+        display: flex;
+        .oficial__wrapper{
+            max-width: $max-width;
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 87px;
+            padding-bottom: 87px;
+            .oficial__header{
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 59px;
+                color: #000000;
+                margin-bottom: 60px;
+                position: relative;
+                span{
+                    display: inline-block;
+                    position: relative;
+                    &::before{
+                        top: 29px;
+                        content: "";
+                        display: block;
+                        width: 153px;
+                        height: 18px;
+                        background: #ADFF00;
+                        z-index: -1;
+                        right: -68px;
+                        position: absolute;
+                    }
+                }
+            }
+            .oficial__description{
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 21px;
+                text-align: center;
+                letter-spacing: 0.01em;
+                color: #1B1B1B;
+                br.oficial__description--br{
+                    display: block;
+                }
+            }
+        }
+    }
+}

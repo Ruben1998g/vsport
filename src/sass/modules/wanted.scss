@@ -1,0 +1,83 @@
+.wanted{
+    display: flex;
+    flex-direction: column;
+    .wanted__wrapper{
+        padding-left: 15px;
+        padding-right: 15px;
+        .wanted__title{
+            font-family: 'Roboto Condensed';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 111%;
+            color: #000000;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+.wanted__title{
+    margin-bottom: 25px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 111%;
+    color: #000000;
+}
+
+.wanted{
+
+    @media(min-width: 1200px){
+        .wanted__title{
+            font-family: 'Roboto Condensed';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 59px;
+            color: #000000;
+            position: relative;
+            margin-bottom: 107px;
+            &::before{
+                content: "";
+                position: absolute;
+                bottom: 4px;
+                left: 0px;
+                width: 417px;
+                height: 18px;
+                background: #ADFF00;
+                z-index: -1;
+            }
+        }   
+
+        .category .category__wrapper .category__goods{
+            .category__goods--list{
+                .category__goods-list-item{
+                    @media(max-width: 1350px){
+                        width: 29% !important;
+                    }
+                    @media(min-width: 1351px){
+                        width: 21%;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.wanted{
+    .category__wrapper .category__goods .category__goods--list .category__goods-list-item{
+        @media(min-width: 1650px){
+            width: 17.7% !important;
+            margin-right: 45px !important;
+            &:nth-child(5n){
+                margin-right: 0px !important;
+            }
+    
+            &:nth-child(4n){
+                margin-right: 45px !important;
+            }
+        }
+    }
+}
