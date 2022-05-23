@@ -21,9 +21,54 @@
         <div class="category__container">
             <div class="category__left">
                 <button class="category__filters-open-trigger" type="button"><span>Фильтры</span></button>
-                <div class="category__filters">
+                <div class="category__filters none">
                     <div class="category__container">
+                        <div class="category__fil-list-container">
+                            <ul class="category__fil-container-list">
+                                <li class="category__fil-container-list-item">
+                                    <div class="category__fil-container-list-item-trigger">
+                                        <h4>ПОДКАТЕГОРИИ</h4>
+                                        <button class="category__fil-container-list-item--close"></button>
+                                    </div>
+                                    <ul class="category__fil-container-inner-list none">
+                                        <li class="category__fil-container-inner-list-item">
+                                            <label>Все
 
+                                            </label>
+                                        </li>
+                                        <li class="category__fil-container-inner-list-item">
+                                            <label>Все1
+
+                                            </label>
+                                        </li>
+                                        <li class="category__fil-container-inner-list-item">
+                                            <label>Все2
+
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="category__fil-checked">
+                            <h2>Выбранные фильтры</h2>
+                            <ul>
+                                <li>
+                                    <h4>Подкатегория</h4>
+                                    <h5>все</h5>
+                                    <button type="button" class="category__fil-checked--close"></button>
+                                </li>
+                                <li>
+                                    <h4>Подкатегория</h4>
+                                    <h5>все</h5>
+                                    <button type="button" class="category__fil-checked--close"></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="category__fil-activites">
+                            <p>Всего результатов: 13</p>
+                            <button class="category__fil-send">Применить фильтры</button>
+                        </div>
                     </div>
                     <div class="category__advantages-desktop">
                         <h4>С НАМИ ВЫГОДНО</h4>
@@ -58,34 +103,85 @@
             </div>
             <div class="category__right">
                 <div class="category__sorts">
-                    <div class="category__sort-item">
-                    </div>
-                    <div class="category__sort-item">
-                    </div>
-                    <div class="category__sort-item">
+                    <div class="category__sort-item category__sort-item--one">
                         <p class="category__sort-title">сортировка :</p>
                         <div class="category__sort-inner-container">
                             <button class="category__sort-trigger"><span class="category__sort--price-up">по цене</span></button>
                             <div class="category__sort-list-container none">
                                 <ul class="category__sort-list">
-                                    <li>
+                                    <li class="js__category__sort-list-item">
                                         <label>
-                                            <span>по цене 1</span>
+                                            <span class="category__sort--price-down">по цене</span>
                                             <input type="radio" name="sorts">
-                                        <label>
+                                        </label>
                                     </li>
-                                    <li>
+                                    <li class="js__category__sort-list-item">
                                         <label>
-                                            <span>по цене 2</span>
+                                            <span class="category__sort--price-up">по цене</span>
                                             <input type="radio" name="sorts">
-                                        <label>
+                                        </label>
                                     </li>
-                                    <li>
+                                    <li class="js__category__sort-list-item">
                                         <label>
-                                            <span>по цене 3</span>
+                                            <span class="category__sort--category-up">по названию</span>
                                             <input type="radio" name="sorts">
-                                        <label>
+                                        </label>
                                     </li>
+                                    <li class="js__category__sort-list-item">
+                                        <label>
+                                            <span class="category__sort--category-down">по названию</span>
+                                            <input type="radio" name="sorts">
+                                        </label>
+                                    </li>
+                                    <li class="js__category__sort-list-item">
+                                        <label>
+                                            <span>По умолчанию</span>
+                                            <input type="radio" name="sorts">
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__sort-item category__sort-item--two">
+                        <p class="category__sort-title">Вид :</p>
+                        <div class="category__sort-inner-container">
+                            <button class="category__sort-trigger"><span class="">таблица</span></button>
+                            <div class="category__sort-list-container none">
+                                <ul class="category__sort-list">
+                                    <li class="js__category__sort-list-item js__category__sort-table">
+                                        <label>
+                                            <span class="">таблица</span>
+                                            <input type="radio" name="sorts">
+                                        </label>
+                                    </li>
+                                    <li class="js__category__sort-list-item js__category__sort-list">
+                                        <label>
+                                            <span class="">Список</span>
+                                            <input type="radio" name="sorts">
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__sort-item category__sort-item--three">
+                        <p class="category__sort-title">Показывать :</p>
+                        <div class="category__sort-inner-container">
+                            <button class="category__sort-trigger"><span class="">по цене</span></button>
+                            <div class="category__sort-list-container none">
+                                <ul class="category__sort-list">
+                                    <li class="js__category__sort-list-item">
+                                        <label>
+                                            <span>12</span>
+                                            <input type="radio" name="sorts">
+                                        </label>
+                                    </li>
+                                    <li class="js__category__sort-list-item">
+                                        <label>
+                                            <span class="">16</span>
+                                            <input type="radio" name="sorts">
+                                        </label>
                                 </ul>
                             </div>
                         </div>

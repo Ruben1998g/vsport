@@ -547,3 +547,22 @@
         }
     }
 }
+
+.cart__order-item-count-value{
+    pointer-events: none;
+}
+
+.cart__order-item-count-minus{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cart__order-item-count-plus{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

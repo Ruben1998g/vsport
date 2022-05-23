@@ -1,57 +1,93 @@
-//Миксины 
+/*Миксины*/ 
 @import 'modules/mixins.scss';
 
-//Cлайдер
+/*Cлайдер*/
 @import 'modules/swipper.scss';
 
 
-//Skyfolding
+/*Skyfolding*/
 @import 'modules/normalize.scss';
+
+/*Переменные*/
 @import 'modules/variables.scss';
+
+/*Постоянные*/
 @import 'modules/skyfolding.scss';
 
-//Page
+/*Page*/
 
 
 
-//Header
+/*Header*/
 
 @import 'modules/header.scss';
 
 
 
-//Main
+/*Main*/
 @import 'modules/error.scss';
+
+/*Хлебные крошки*/
 @import 'modules/bread.scss';
+
+
+/*Каталог*/
 @import 'modules/catalog.scss';
 
+/*Слайдер*/
 @import 'modules/slider.scss';
+
+/*Блок с текстом*/
 @import 'modules/oficial.scss';
+
+/*Машины*/
 @import 'modules/mashine.scss';
+
+/*Популярные*/
 @import 'modules/popular.scss';
+
+/*FAQ*/
 @import 'modules/faq.scss';
+
+/*Новости*/
 @import 'modules/news.scss';
+
+/*Портнеры*/
 @import 'modules/partners.scss';
 
-
+/*Карточка*/
 @import 'modules/cart.scss';
+
+/*Категории*/
 @import 'modules/category.scss';
 
-
+/*Товар*/
 @import 'modules/good.scss';
 
+/*Сравнение*/
 @import 'modules/comparison.scss';
+
+/*Желание*/
 @import 'modules/wanted.scss';
 
 
 
 
-//Footer
-
-
+/*Footer*/
 @import 'modules/footer.scss';
 
-//Popup
+/*Popup*/
 @import 'modules/menu.scss';
+
+/*Popup - поиск*/
 @import 'modules/search.scss';
+
+/*Popup - обратный звонок*/
 @import 'modules/callback.scss';
+
+/*Popup - попап корзины*/
+@import 'modules/popup-cart.scss';
+
+/*:hover:focus:active*/
+@import 'modules/hover.scss';
+

@@ -132,6 +132,7 @@
                                 }
 
                                 .comparison__img-container-new{
+                                    white-space: nowrap;
                                     font-family: 'Roboto Condensed';
                                     font-style: normal;
                                     font-weight: 700;
@@ -283,5 +284,20 @@
                 }
             }
         }
+    }
+}
+
+.comparison__not-have{
+    margin-bottom: 120px;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #686868;
+    text-align: left;
+    @media(min-width: 1200px){
+        transform: translateY(-15px);
     }
 }

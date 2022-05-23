@@ -400,3 +400,19 @@
         height: 22px;
     }
 }
+
+@media(min-width: 1200px){
+    .popular__title{
+        height: 38px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .popular__cost-container{
+        height: 40px;
+    }
+
+    .popular__new-cost{
+        margin-top: auto;
+    }
+}

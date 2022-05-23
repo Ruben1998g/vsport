@@ -69,8 +69,17 @@ const sliders = function(){
 			prevEl: '.special-slider-mini-buttons-container .swiper-button-prev',
 		  },
 		  breakpoints: {
+        320:{
+          spaceBetween: 19,
+		      slidesPerView: 2,
+        },
+        600:{
+          spaceBetween: 19,
+          slidesPerView: 3,
+        },
 			  1200:{
-				spaceBetween: 19,
+          slidesPerView: 3,
+				  spaceBetween: 19,
 			  }
 			}
 		});
